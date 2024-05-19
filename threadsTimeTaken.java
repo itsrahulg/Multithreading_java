@@ -44,7 +44,7 @@ class FibonacciThread extends Thread {
         }
         
         long endTime = System.currentTimeMillis();
-        System.out.println(" Time taken by FibonacciThread: " + (endTime - startTime) + " ms");
+        System.out.println("time taken by FibonacciThread: " + (endTime - startTime) + " ms");
     }
 }
 
